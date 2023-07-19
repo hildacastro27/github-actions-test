@@ -12,7 +12,7 @@ jobs:
         run: |
           node -v
           npm -v
-      - name: python Commands
+      - name: phyton Commands
         run: |
           import platform
           pritnt(platform.processor())  
